@@ -9,5 +9,5 @@ public class BookmarkContext : DbContext
     {
     }
     
-    public DbSet<Bookmark?> Bookmark { get; set; }
+    public DbSet<Bookmark> Bookmark { get; set; }
 }
